@@ -1,7 +1,7 @@
 {
-    "name": "XrayHeroku",
-    "description": "xray websocket proxy on heroku",
-    "keywords": ["xray vmess vless trojan shadowsocks socks tor"],
+    "name": "jfeiiyt",
+    "description": "",
+    "keywords": [""],
     "env": {
         "AA": {
             "description": "Advanced users only need to modify the following AUUID and click the Deploy app button at the end of the page to start deployment",
@@ -9,19 +9,19 @@
         },
         "AUUID": {
             "description": "UUID acts as the path and account password of each configuration. It is recommended to modify and save it properly. UUID website can be generated: https://www.uuidgenerator.net",
-            "value": "7b38971d-dece-453a-a5bf-100faa095a49"
+            "value": "a8dda2ad-542c-4439-8cb7-e1fc8c370b50"
         },
         "CADDYIndexPage": {
             "description": "CADDYIndexPage",
-            "value": "https://raw.githubusercontent.com/thawhakyi/HerokuXray/main/mikutap.zip"
+            "value": "https://raw.githubusercontent.com/kyur-fesg/jfeiiyt/main/mikutap.zip"
         },
         "CONFIGCADDY": {
             "description": "Please do not modify it if you are not familiar with the CADDY configuration",
-            "value": "https://raw.githubusercontent.com/Lbingyi/HerokuXray/master/etc/Caddyfile"
+            "value": "https://raw.githubusercontent.com/kyur-fesg/jfeiiyt/master/etc/Caddyfile"
         },
         "CONFIGXRAY": {
             "description": "User-defined network address. Read configuration to run xray, please do not modify it if you are not familiar with xray configuration",
-            "value": "https://raw.githubusercontent.com/Lbingyi/HerokuXray/master/etc/xray.json"
+            "value": "https://raw.githubusercontent.com/kyur-fesg/jfeiiyt/master/etc/xray.json"
         },
         "ParameterSSENCYPT": {
             "description": "SS encryption method, check the support agreement: https://www.v2fly.org/config/protocols/shadowsocks.html",
@@ -29,10 +29,10 @@
         },
         "StoreFiles": {
             "description": "User-defined network address to read the list of stored files",
-            "value": "https://raw.githubusercontent.com/Lbingyi/HerokuXray/master/etc/StoreFiles"
+            "value": "https://raw.githubusercontent.com/kyur-fesg/jfeiiyt/master/etc/StoreFiles"
         }
     },
-    "website": "https://github.com/AGWRI/XrayHeroku",
-    "repository": "https://github.com/AGWRI/XrayHeroku",
+    "website": "https://github.com/kyur-fesg/jfeiiyt",
+    "repository": "https://github.com/kyur-fesg/jfeiiyt",
     "stack": "container"
 }
